@@ -1,0 +1,12 @@
+Load X
+Add Y
+Subt Z
+Store W
+Output
+Halt
+
+W, DEC 0
+X, DEC 25
+Y, DEC 44
+Z, DEC 22
+End

@@ -1,0 +1,29 @@
+     Assembly listing for: add.mas
+                Assembled: Thu Mar 22 21:41:32 CAT 2018
+
+000 1007 |         LOAD X            
+001 3008 |         ADD Y             
+002 4009 |         SUBT Z            
+003 2006 |         STORE W           
+004 6000 |         OUTPUT            
+005 7000 |         HALT              
+         |                          
+006 0000 |  W      DEC 0             
+007 0019 |  X      DEC 25            
+008 002C |  Y      DEC 44            
+009 0016 |  Z      DEC 22            
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          W      |   006   | 003
+          X      |   007   | 000
+          Y      |   008   | 001
+          Z      |   009   | 002
+         --------------------------------------------------
+
+
